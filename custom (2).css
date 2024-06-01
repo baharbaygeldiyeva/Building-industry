@@ -1,0 +1,192 @@
+@font-face{
+    font-family: 700;
+    font-family: Gilroy;
+    src: url("./Gilroy-Medium.ttf");
+}
+
+body {
+    background-color: #F6F6F6;
+    color: black;
+    font-family: Gilroy;
+}
+
+/* colors */
+.black {
+    color: #000000;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.gray {
+    color: #686868 !important;
+    padding: 0px 10%;
+}
+
+.light-gray {
+    color: #6D6D6D;
+}
+
+.lightest-gray {
+    color: #939393;
+}
+
+.primary {
+    color: #E93333;
+}
+
+.secondary {
+    color: #FFCB13;
+}
+
+/* FONTS */
+
+html {
+    font-size: 16px;
+}
+
+p {
+    font-size: 1.6vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #000000 !important;
+    text-decoration: none !important;
+    font-family: Gilroy;
+    margin-top: 5px !important;
+    margin-bottom: 5px;
+    padding: 0px 10%;
+}
+a {
+    text-decoration: none !important; 
+  }
+.sm-font {
+    font-family: Gilroy;
+    font-size: calc(1.2rem + 1vw);
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0%;
+}
+
+.md-font {
+    font-family: Gilroy;
+    font-size: calc(1.4rem + 1vw);
+    /* font-size: 1.4rem; */
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0%;}
+
+.lg-font {
+    font-family: Gilroy;
+    /* font-size: 1.8rem; */
+    font-size: calc(1.8rem + 1vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0%;
+}
+
+/* components */
+
+.btn-primary {
+    background-color: #E93333;
+    border-radius: 9px;
+    width: 180px;
+    height: 36px;
+    color: #FFF;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.btn-primary:hover {
+    background: #E75858;
+}
+
+.btn-outlined {
+    border-radius: 9px;
+    background: rgba(233, 51, 51, 0.08);
+    width: 202px;
+    height: 36px;
+    color: #E93333;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.btn-outlined:hover {
+    background: rgba(233, 51, 51, 0.29);
+}
+/* bahar */
+
+h1 {
+    font-size: calc(40px + 4vw);
+    font-weight: 600;
+    padding: 0px 10%;
+}
+h2 {
+    font-size: 3vw;
+    font-weight: 600;
+    padding: 0px 7%;
+}
+h4 {
+    font-size: 2.4vw;
+    font-weight: 600;
+    padding: 0px 10%;
+}
+.image1 img {
+    border-radius: 2rem;
+    border-top-right-radius: 40%;
+}
+
+.main {
+    padding: 25px; 
+}
+/* body{
+    width: 564px;
+    padding-right: 50px;
+} */
+.btn {
+    background-color: red;
+    height: 31px;
+    width: 31px;
+    border-radius: 50px;
+    border: none;
+}
+.slick-slide {
+    margin-left: 15px;
+}
+.child {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+}
+.parent {
+   
+    object-fit: cover;
+    position: relative;
+}
+.card {
+    background-color: white;
+    border-radius: 2%;
+    width: fit-content;
+}
+
+.px-body {
+    padding: 0px 15%;
+}
+
+@media screen and (max-width: 700px ) {
+     
+    .image1 img, .main img{
+      height: 100%;
+      width: auto;
+      border-radius: 7rem;
+      border-bottom-right-radius: 25rem; 
+    }
+}
+
